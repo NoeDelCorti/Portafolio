@@ -74,18 +74,20 @@ body {
     height: 80vh;
 }
 
-.button {
+.about-button {
     border-radius: 6.25rem;
-    padding: 0.625rem;
+    padding: 10px;
     width: 50%;
     color: #fff;
     background-color: rgb(55, 204, 129);
     border: none;
     font-size: 1.125em;
     outline: none;
-    margin-top: 20px;
+    margin-top: 1.25rem;
+    list-style: none;
+    align-content: center;
 }
 
-.button:hover{
+.about-button:hover{
     background-color: rgb(147, 202, 175);
 }
