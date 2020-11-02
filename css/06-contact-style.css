@@ -78,13 +78,6 @@
     padding: 12px;
     border-radius: 100px;  
 }
- 
-.devicon-twitter-plain {
-    font-size: 12px;
-    padding: 12px;
-}
-
-/*el icono de tweeter me queda diferente en el border radius*/
 
 .contact-social-link:hover .contact-social-icono{
     background-color: rgb(161, 76, 241);

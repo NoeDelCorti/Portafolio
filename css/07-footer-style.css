@@ -9,8 +9,8 @@
 
 .footer-container {
     display:flex;
-    /*width: 100%;*/
-    height: 30vh;
+    width: 100%;
+    height: 45vh;
     padding: 80px 20px 60px;
     justify-content: center;
     flex-direction: column;
@@ -19,13 +19,10 @@
     ;
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
-
 }
 
-
 .footer-nav {
-    display: flex;   
-    
+    display: flex;      
 }
 
 .footer-links-list{
@@ -47,20 +44,25 @@
 
 .footer-icon {
     display: flex;
+    justify-content: space-around;    
+    align-items: center;
 }
+
 
 .icon {
     display: flex;
     align-items: center;
+    width: 20%;
     margin: 20px;
-    padding: 30px;
-    font-size: 25px;
+    padding: 10px;
+    font-size: 15px;
     text-decoration: none;
     background-color: #ffffff;
     color: rgb(96, 190, 134);
-    border-radius: 100px;
+    border-radius: 100px; 
     border-color: 1px solid #ffffff;
 }
+
 
 .heart {
     color: red;
@@ -70,13 +72,12 @@
 
 .footer-links-text:hover {
     color: blueviolet;
+    
 }
 
 .icon:hover {
     background-color:rgb(96, 190, 134);
-    color: #ffffff;  
-    border: 1px solid #ffffff;
-    
+    color: #8e33f5;    
 }
 
 
