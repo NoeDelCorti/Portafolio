@@ -46,10 +46,10 @@
     flex-wrap: wrap;
     width: 75%;
     height: 180vh;
-    align-items: center;
+    /* align-items: center; */
     align-self: center;
     padding: 15px;
-    background-color: crimson;
+   /*  background-color: crimson; */
        
 }
 
@@ -62,7 +62,7 @@
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    flex-direction: column;
+    /* flex-direction: column; */
     flex-wrap: wrap;
     margin: 10px;
 }
@@ -73,7 +73,7 @@
     height: 200px;
     align-content: center;
     /* margin-left: 50px; */
-    padding-left: 55px;
+    padding-left: 60px;
 }
 
 .proyect-card-porfolio{
@@ -86,18 +86,16 @@
     padding-top: 50px;
     text-decoration: none;
     flex-direction: column;
-     margin: 10px; 
-    
+    margin: 10px;  
 }
 
 
 .portafolio {
     display: flex;
-    /* margin-top: 150px; */
     width: 280px;
     height: 150px;
     align-content: center;
-    /* margin: 0; */
+    
 }
 
 figcaption {
@@ -106,8 +104,12 @@ figcaption {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 20px;
-    margin-left: 15px;
+    margin-left: 25px;
     
+}
+
+.match3 , .todo-app {
+    margin-left: 50px;
 }
 
 .figcaption-1 {
