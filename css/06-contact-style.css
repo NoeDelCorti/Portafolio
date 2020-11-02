@@ -12,51 +12,42 @@
     background-color:#F6F7FB;
     width: 100%;
     height: 150vh;
-    padding: 300px 150px;
+    padding: 100px; 
     font-family: 'Montserrat', sans-serif;
     
 }
 
 .contact-container {
     display: flex;
-    justify-content: space-around;
-    /*background-color: #ffffff;*/
+    background-color: #ffffff;
     border-radius: 15px;
-    justify-content: flex-start;
     width: 100%;
-    height: 100vh;
-    padding: 90px;
-    background-color: lightcoral;
+    height: 100vh; 
+    padding: 70px;
     
 }
 
-.contact-info {
+ .contact-info {
     display: flex;
     flex-direction: column;
-    width: 700px;
+    width: 50%;
     height: 80vh;
     padding-top: 50px;
-    padding-left: 20px;
-    background-color: #F6F7FB;  
-    
+    padding-left: 20px;   
 }
 
 .contact-title {
-    font-size: 60px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    
-
+    font-size: 45px;
 }
 
 .contact-text {
-   
     display: flex;
     align-content: flex-start;
     margin-right: 50px;
     margin-bottom: 40px;
-    padding: 20px;
-    font-size:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size:15px;
 }
 
 .contact-social-list {
@@ -76,26 +67,22 @@
 .contact-social-item {
     display: flex;
     text-decoration: none;
-    font-size: 20px;
-    color: black;
-    
-    
+    font-size: 15px;
+    color: black;    
 }
 
 .contact-social-icono {
     color:rgb(96, 190, 134);
     width: 40px;
     height: 40px;
-    padding: 10px;
-    border-radius: 100px;
-    margin-right: 15px;
-    
+    padding: 12px;
+    border-radius: 100px;  
 }
-
-/*.devicon-twitter-plain {
+ 
+.devicon-twitter-plain {
     font-size: 12px;
-    padding: 15px;
-}*/
+    padding: 12px;
+}
 
 /*el icono de tweeter me queda diferente en el border radius*/
 
@@ -109,17 +96,15 @@
 
 /*---COMIENZA FORMULARIO----*/
 
-.contact-formulario {
+ .contact-formulario {
     display: flex;
-    flex-wrap: wrap;
-    width: 700px;
+    width: 50%;
     height: 80vh;
-    padding-top: 70px;
-    padding-left: 20px;
-    align-content: space-around;
-    font-size: 20px;   
+    font-size: 15px;   
     background-color: lawngreen;
-}
+    padding-top: 50px;
+    padding-left: 20px;
+} 
 
 /*.contact-title-form {
     font-size: 60px;
@@ -129,14 +114,14 @@
 }*/
 
 
-.contact-formulario-container{
+/* .contact-formulario-container{
     display: flex;
     width: 500px;
     height: 60vh;
     background-color: turquoise;
     padding: 10px;
 
-}
+} */
 
 /*.user-name, .user-last-name, .user-email, .user-message {
     display: flex;
