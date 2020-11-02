@@ -62,7 +62,6 @@
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    /* flex-direction: column; */
     flex-wrap: wrap;
     margin: 10px;
 }
@@ -109,7 +108,7 @@ figcaption {
 }
 
 .match3 , .todo-app {
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
 .figcaption-1 {
