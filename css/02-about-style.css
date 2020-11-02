@@ -21,13 +21,13 @@ body {
     width: 100%;
     height: 85vh;
     align-items: center;
-    padding: 20px; 
+    padding: 1.25rem; 
 }
 
 .about-info {
     display: flex;
-    margin-top: 100px;
-    padding: 20px;
+    margin-top: 6.25rem;
+    padding: 1.25rem;
     width: 30%;
     flex-direction: column;
     font-family: 'Montserrat', sans-serif; 
@@ -44,19 +44,19 @@ body {
     display: flex;
     width: 50%;
     display: flex;
-    font-size: 30px;
+    font-size: 1.875em;
     font-weight: bold;
 }
 
 .about-name {
     display: flex;
-    font-size: 60px;
+    font-size: 3.75em;
     font-weight: bolder;
     color: mediumseagreen;
 }
 
 .about-text {
-    font-size: 20px;
+    font-size: 1.25em;
 }
 
 .about-img{
@@ -75,13 +75,13 @@ body {
 }
 
 .button {
-    border-radius: 100px;
-    padding: 10px;
+    border-radius: 6.25rem;
+    padding: 0.625rem;
     width: 50%;
     color: #fff;
     background-color: rgb(55, 204, 129);
     border: none;
-    font-size: 18px;
+    font-size: 1.125em;
     outline: none;
     margin-top: 20px;
 }
