@@ -96,4 +96,9 @@
     border-color: darkorchid;     
 } 
 
+@media (max-width: 350px) {
+    .skills-container {
+        display: none;
+    }
+}
  

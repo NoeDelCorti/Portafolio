@@ -74,3 +74,9 @@ nav-header-item {
     color: #ffffff;
 }
 
+@media (max-width:350px){
+    .header {
+        display: none;
+    }
+}
+

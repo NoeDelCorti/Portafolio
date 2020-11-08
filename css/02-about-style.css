@@ -11,7 +11,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width: 100%;  
+    width: 100%;
+    border: 3px solid black;  
 }
 
 .about-container {
@@ -90,4 +91,24 @@ body {
 
 .about-button:hover{
     background-color: rgb(147, 202, 175);
+}
+
+@media (max-width: 350px){
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .about-info {
+        width: 100%;
+        height: auto;
+        flex-direction: column; 
+    }
+
+    .about-img {
+        /* display: none; */
+        width: 100%;
+        flex-direction: column;
+    }
 }
