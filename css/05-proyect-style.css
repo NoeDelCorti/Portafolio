@@ -18,7 +18,6 @@
     padding: 0.625rem;
     margin-bottom: 6.875rem;
     margin-top: 8.125rem;
-    
 }
 
 .proyect-data {
@@ -27,11 +26,14 @@
     align-items: center;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    margin-bottom: 3.125rem;
+    flex-wrap: wrap;
+    background-color: burlywood;
    
 }
 
 .proyect-title {
+    display: flex;
+    align-content: center;
     font-size: 3.75em;
     margin-bottom: 1.875rem;
 }
@@ -44,13 +46,22 @@
 .proyect-card-container {
     display: flex;
     flex-wrap: wrap;
-    width: 75%;
-    height: 180vh;
+    /* width: 75%; */ 
+    height: auto;
     align-self: center;
-    padding: 0.9375rem;
-   
-       
+    /* padding: 0.9375rem; */
+    /* background-color: chocolate; */
+    justify-content: space-between;   
+    padding: 9.375rem;
+    color: indigo;
+
 }
+.proyect-single-card{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+
 
 .proyect-card {
     display: flex;
@@ -84,45 +95,86 @@
     text-decoration: none;
     flex-direction: column;
     margin: 0.625rem;  
+    
+}
+
+.proyect-figure{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 
 .portafolio {
     display: flex;
-    width: 17.5rem;
-    height: 9.375rem;
+    width: 12.5rem;
+    height: 6.875rem;
     align-content: center;
-    
+    align-self: center;
 }
 
-figcaption {
+.figcaption {
     display: flex;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 1.25em;
     margin-left: 1.5625rem;
-    /* color: rgb(92, 67, 124); */
+    
 }
 
 .match-3, .todo-app {
     align-content: center;
     padding-left: 3.75rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.25em;
 }
 
 .figcaption-1 {
-    margin-top: 0.6875rem;
+    /* margin-top: 0.6875rem; */
     /* color: rgb(92, 67, 124); */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.25em;
+    padding-top: 3.125rem;
+
 }
 
 .proyect-card:hover, 
-.proyect-card-porfolio {
+.proyect-card-porfolio:hover{
     color: rgb(185, 145, 204);
-    border-color: indigo;
-    
+    border-color: indigo;    
 }
+
 
 /* #### preguntar a JONH #### 
 border y color de la primer card
 chequear el hover de la primer tarjeta
 como pasar de pixel a porcentaje */
+
+@media (max-width: 300px){
+    .proyect-card-container{
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        height: auto; 
+        width: auto;
+    }
+
+    .proyect-single-card {
+        display: flex;
+        width: auto;
+        height: auto;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    /* .proyect-title{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        width: auto;
+    } */
+}
