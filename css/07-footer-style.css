@@ -80,5 +80,9 @@
     color: #8e33f5;    
 }
 
+@media (max-width:350px){
+    .footer-links {
+        display: none;
+}
 
-
+}

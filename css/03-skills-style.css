@@ -50,10 +50,7 @@
     font-size: 1.125rem;
     width: 37.5rem;
     height: 6.25rem;
-    margin-left: 3.125rem;
-    padding: 1.25rem;
-    
-    
+    padding: 1.25rem;    
 }
 
 .skills-all-icon {
@@ -61,13 +58,9 @@
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
-   /*  width: 65.625rem;
-    height: 46.875rem; */
     width: 60%;
     height: auto;
-    /* margin-top: 0.3125rem;
-    padding: 1.25rem 1.25rem 1.25rem 1.25rem; */
-    /* background-color: blueviolet; */
+   
 }
 
 .skills-icon {
@@ -105,18 +98,23 @@
     border-color: darkorchid;     
 } 
 
-/* @media (max-width: 350px) {
-    .skills-container {
-        display: none;
-    }
-} */
 
 @media screen and (max-width: 350px){
-    .skills-info{
+    
+    .skills-title{
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         align-content: center;
-        height: 100%;
+        height: auto;
+        width: auto;
+        font-size: 35px;
+     }
+    .skills-text{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        height: auto;
+        width: auto;
     }
    
 }
