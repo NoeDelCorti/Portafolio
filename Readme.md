@@ -4,7 +4,7 @@
 
 <br>
 
-### ¿Te gustaría ver como quedó? podes verlo en este [enlace](noedelcorti.github.io/portafolio/.) o también podes hacerlo desde acá [aca]().
+### ¿Te gustaría ver como quedó? podes verlo en este [enlace](noedelcorti.github.io/portafolio/.) o también podes hacerlo desde acá [aca](https://amazing-jackson-ed6e70.netlify.app/).
 
 
 <br>
@@ -42,7 +42,7 @@
 <br>
 
 
-### Este portafolio fue desarrollado por Noe Del Corti, también conocida como Noe Delta Charly, agradezco a mis amores mentorxs [Aman Cardoso](https://github.com/cardoso24) y [Cou Infante]() que me alentaros a iniciarme IT y me recomendaron [Ada](https://github.com/Ada-IT) para comenzar. Gracias [Ada-IT] por la iniciativa tan necesaria de este espacio pensado para mujeres y femeneidades, con el fin de empoderarnos y disminuir la brecha de genero en el rubro, gracias a [Leydy Moreno](https://github.com/leydyk93/) por tu buena predispocisión y tu amabilidad al explicar, y por ultimo pero no por eso menos importante, gracias a [Jonh Parra](https://github.com/Jonhks) por su empatía, su paciencia, su forma de enseñar aprendiendo y su buena onda!.
+### Este portafolio fue desarrollado por Noe Del Corti, también conocida como Noe Delta Charly. Agradezco a mis amores mentorxs [Aman Cardoso](https://www.linkedin.com/in/amanda-cardoso-930657145/) y [Cou Infante](https://www.linkedin.com/in/cou-infante-08889032/) que me alentaron a iniciarme IT y me recomendaron [Ada](https://github.com/Ada-IT) para dar mis primeros pasos con amor. Gracias [Ada-IT](https://www.linkedin.com/school/ada-itw/) por la iniciativa tan necesaria de este espacio pensado para mujeres y femeneidades, con el fin de empoderarnos y disminuir la brecha de genero en el rubro. Gracias a [Leydy Moreno](https://github.com/leydyk93/) por tu buena predispocisión y tu amabilidad al explicar, y por ultimo pero no por eso menos importante, gracias a [Jonh Parra](https://github.com/Jonhks) por su empatía, su paciencia, su forma de enseñar aprendiendo y su buena onda!.
 
 <br>
 
