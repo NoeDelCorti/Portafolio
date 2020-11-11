@@ -4,7 +4,7 @@
 
 <br>
 
-### ¿Te gustaría ver como quedó? podes verlo en este [enlace](noedelcorti.github.io/portafolio/.) o también podes hacerlo desde acá [aca](https://amazing-jackson-ed6e70.netlify.app/).
+### ¿Te gustaría ver como quedó? podes verlo en este [enlace](https://noedelcorti.github.io/portafolio/) o también podes hacerlo desde acá [aca](https://amazing-jackson-ed6e70.netlify.app/).
 
 
 <br>
