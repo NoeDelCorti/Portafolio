@@ -80,9 +80,19 @@
     color: #8e33f5;    
 }
 
+/*  ### comienza responsive ### */
+
 @media (max-width:350px){
     .footer-links {
         display: none;
 }
 
+}
+
+@media(max-width:500px){
+    .footer-links-list{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
 }

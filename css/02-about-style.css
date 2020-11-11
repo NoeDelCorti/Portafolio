@@ -12,6 +12,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     width: 100%;
+    border: 2px solid black;
     
 }
 /* recordar borrar border del body
@@ -101,6 +102,7 @@ una vez finalizad el responsive */
         display: flex;
         flex-direction: column;
         height: auto;
+        margin-top: 0;
     }
     
     .about-info {
@@ -110,7 +112,26 @@ una vez finalizad el responsive */
     }
 
     .about-img {
-        /* display: none; */
+        width: 100%;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 500px){
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin-top: 0;
+    }
+    
+    .about-info {
+        width: 100%;
+        height: auto;
+        flex-direction: column; 
+    }
+
+    .about-img {
         width: 100%;
         flex-direction: column;
     }

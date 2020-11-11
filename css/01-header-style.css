@@ -46,8 +46,7 @@ nav-header-item {
     border-radius: 6.25rem;
     justify-content: space-between;
     margin: 1.25rem;
-    padding: 0.9375rem;
-    
+    padding: 0.9375rem;  
 }
 
 .nav-link-selective {
@@ -74,6 +73,12 @@ nav-header-item {
 }
 
 @media (max-width:350px){
+    .header {
+        display: none;
+    }
+}
+
+@media (max-width:500px){
     .header {
         display: none;
     }

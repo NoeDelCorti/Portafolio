@@ -164,7 +164,7 @@ como pasar de pixel a porcentaje */
         align-content: center;
         height: auto;
         width: auto;
-        font-size: 35px;
+        font-size: 2.1875rem;
     }
     
     .proyect-card-container{
@@ -173,7 +173,6 @@ como pasar de pixel a porcentaje */
         flex-direction: column;
         height: auto; 
         justify-content: center;
-        /* background-color: limegreen; */
         padding: 0;
     }
 

@@ -98,6 +98,8 @@
     border-color: darkorchid;     
 } 
 
+/* ### comienza responsive */
+
 
 @media screen and (max-width: 350px){
     
@@ -118,4 +120,22 @@
     }
    
 }
- 
+
+@media(max-width:500px){ 
+.skills-title{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: auto;
+    width: auto;
+    font-size: 35px;
+ }
+.skills-text{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: auto;
+    width: auto;
+}
+
+}
