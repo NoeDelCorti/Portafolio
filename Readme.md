@@ -24,22 +24,30 @@
 
 <br>
 
-### Esta la vista del proyecto desde una computadora, pero podes abrirlo desde cualquier dispositivo ya que es responsivo ;)
+### Esta es una de las vistas del proyecto desde una computadora, pero podes abrirlo desde cualquier dispositivo ya que es responsivo ;)
 
 
 <br>
 
 ---
 
-### Este debería ser el resultado final de tu instalación.
+### Así debería ser el resultado final de tu instalación.
 
 ![imagen](./img/screen.png)
 
 <br>
 
 ---
+<br>
+<br>
 
-### Este portafolio fue desarrollado por Noe Del Corti, también conocida como Noe Delta Charly, agradezco a mis amores mentorxs [Aman Cardoso](https://github.com/cardoso24) y [Cou Infante]()
+
+### Este portafolio fue desarrollado por Noe Del Corti, también conocida como Noe Delta Charly, agradezco a mis amores mentorxs [Aman Cardoso](https://github.com/cardoso24) y [Cou Infante]() que me alentaros a iniciarme IT y me recomendaron [Ada](https://github.com/Ada-IT) para comenzar. Gracias [Ada-IT] por la iniciativa tan necesaria de este espacio pensado para mujeres y femeneidades, con el fin de empoderarnos y disminuir la brecha de genero en el rubro, gracias a [Leydy Moreno](https://github.com/leydyk93/) por tu buena predispocisión y tu amabilidad al explicar, y por ultimo pero no por eso menos importante, gracias a [Jonh Parra](https://github.com/Jonhks) por su empatía, su paciencia, su forma de enseñar aprendiendo y su buena onda!.
+
+<br>
+
+### Hecho con amor y desde el <3 por Noe.
+
 
 
 
