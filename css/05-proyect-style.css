@@ -150,13 +150,9 @@
     border-color: indigo;    
 }
 
+/*  ### comienza responsive ### */
 
-/* #### preguntar a JONH #### 
-border y color de la primer card
-chequear el hover de la primer tarjeta
-como pasar de pixel a porcentaje */
-
-@media (max-width: 350px){
+@media (max-width:900px) and (min-width:320px){
     
     .proyect-title{
         display: flex;
@@ -184,4 +180,33 @@ como pasar de pixel a porcentaje */
         flex-wrap: wrap;
     }
 
+}
+
+@media (max-width:1024px) and (min-width:900px){
+     
+    .proyect-title{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        height: auto;
+        width: auto;
+        font-size: 2.1875rem;
+    }
+    
+    .proyect-card-container{
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        height: auto; 
+        justify-content: center;
+        padding: 0;
+    }
+
+    .proyect-single-card {
+        display: flex;
+        width: auto;
+        height: auto;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
 }

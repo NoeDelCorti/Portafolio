@@ -50,7 +50,9 @@
     justify-content: center;    
 }
 
-@media (max-width:300px) {
+/* ### comienza responsive ### */
+
+@media (max-width:320px) and (min-width:900px) {
     .section-quote-info{
         display: flex;
         flex-wrap: wrap;
@@ -61,5 +63,31 @@
     .quote-container {
         display: flex;
         justify-content: center;
+    }
+
+    .quote-name-author{
+        display: flex;
+        text-align: center;
+        /* padding: 20px; */
+    }
+}
+
+@media (max-width:900px) and (min-width:320px){
+    .section-quote-info{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        font-size: 25px;
+    }
+    
+    .quote-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .quote-name-author{
+        display: flex;
+        text-align: center;
     }
 }

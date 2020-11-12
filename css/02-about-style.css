@@ -12,7 +12,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     width: 100%;
-    /* border: 2px solid black; */
+   /*  border: 2px solid black; */ 
     
 }
 /* recordar borrar border del body
@@ -97,7 +97,9 @@ una vez finalizad el responsive */
     background-color: rgb(147, 202, 175);
 }
 
-@media (max-width: 350px){
+/* ### comienza responsive ### */
+
+@media (max-width:900px) and (min-width:320px){
     .about-container {
         display: flex;
         flex-direction: column;
@@ -117,7 +119,7 @@ una vez finalizad el responsive */
     }
 }
 
-@media (max-width: 500px){
+@media (max-width:1024px) and (min-width:900px){
     .about-container {
         display: flex;
         flex-direction: column;

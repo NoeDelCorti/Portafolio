@@ -74,13 +74,13 @@ nav-header-item {
 
 /* ### comienzo responsive ### */
 
-@media (max-width:350px){
+@media (max-width:900px) and (min-width:320px){
     .header {
         display: none;
     }
 }
 
-@media (max-width:500px){
+@media (max-width:1024px) and (min-width:900px){
     .header {
         display: none;
     }
