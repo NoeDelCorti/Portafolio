@@ -72,6 +72,8 @@ nav-header-item {
     color: #ffffff;
 }
 
+/* ### comienzo responsive ### */
+
 @media (max-width:350px){
     .header {
         display: none;
