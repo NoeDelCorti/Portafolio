@@ -58,7 +58,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
-    width: 60%;
+    width: auto;
     height: auto;
    
 }
@@ -118,24 +118,32 @@
         height: auto;
         width: auto;
     }
-   
+
+   /*  .skils-all-icon{
+        display: flex;
+        width: auto;
+        height: auto;
+
+    } */
+
 }
 
 @media (max-width:1024px) and (min-width:900px){ 
-.skills-title{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    height: auto;
-    width: auto;
-    font-size: 35px;
+    .skills-title{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        height: auto;
+        width: auto;
+        font-size: 35px;
  }
-.skills-text{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    height: auto;
-    width: auto;
+    .skills-text{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        height: auto;
+        width: auto;
 }
+
 
 }
