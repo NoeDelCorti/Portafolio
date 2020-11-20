@@ -24,6 +24,11 @@
     flex-direction: column;   
 }
 
+.quote-img{
+    display: flex;
+    justify-content: center;
+}
+
 .quote-title {
     display: flex;
     color: #ffffff;
@@ -64,12 +69,13 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
+    
     }
 
     .quote-name-author{
         display: flex;
         text-align: center;
-        /* padding: 20px; */
+        
     }
 }
 
@@ -79,6 +85,7 @@
         flex-wrap: wrap;
         flex-direction: row;
         font-size: 25px;
+        justify-content: center;
     }
     
     .quote-container {

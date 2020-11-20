@@ -14,11 +14,6 @@ body {
     width: 100%;
 }
 
-/* recordar borrar border del body
-una vez finalizad el responsive */
-
-
-
 .about-container {
     display: flex;
     flex-direction: row;
@@ -117,7 +112,7 @@ una vez finalizad el responsive */
     }
 }
 
-@media (max-width:1024px) and (min-width:900px) {
+@media (max-width:1024px) and (min-width:700px) {
     .about-container {
         display: flex;
         flex-direction: column;
