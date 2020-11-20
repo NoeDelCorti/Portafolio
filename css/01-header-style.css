@@ -23,6 +23,8 @@
     
 }
 
+
+
 .nav-menu {
     display: flex;
     justify-content: space-between;
@@ -54,9 +56,6 @@ nav-header-item {
     text-decoration: none;
     justify-content: space-between;
     margin: 1.25rem;
-}
-
-.nav-link-selective {
     border-radius: 6.25rem;
     padding: 0.9375rem;
     color: white;
@@ -67,22 +66,62 @@ nav-header-item {
     color: rgb(161, 76, 241);
 }
 
+.header-label:hover{
+    cursor: pointer;
+}
+
 .nav-link-selective:hover{
     background-color: rgb(161, 76, 241);
     color: #ffffff;
 }
 
+.nav-header-link:focus{
+    border-radius: 6.25rem;
+    padding: 0.9375rem;
+    color: white;
+    background-color:rgb(92, 209, 151);
+}
+
+
 /* ### comienzo responsive ### */
 
-@media (max-width:900px) and (min-width:320px){
+@media (max-width:700px) and (min-width:320px){
+  /*   .nav-menu{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: space-between;
+        font-size: 15px;
+    }
+    .nav-header-item {
+        /* padding: 0.625rem; */
+       /* list-style: none;
+        text-decoration: none;
+        color: rgb(92, 209, 151);
+        /* border-radius: 6.25rem; */
+       /* justify-content: space-between;
+       /*  margin: 1.25rem;
+        padding: 0.9375rem;  */
+        /*background-color: #ffffff;
+
+    } */
+
     .header {
         display: none;
     }
-}
+ }
 
-@media (max-width:1024px) and (min-width:900px){
+@media (max-width:1024px) and (min-width:700px){
+    
     .header {
-        display: none;
+        background-color: rgb(236, 219, 236);
+    }
+
+    .nav-header-link {
+        border-radius: 6.25rem;
+        padding: 0.9375rem;
+        color: white;
+        background-color:rgb(92, 209, 151);
     }
 }
 

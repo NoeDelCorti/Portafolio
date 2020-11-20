@@ -12,9 +12,8 @@ body {
     padding: 0;
     box-sizing: border-box;
     width: 100%;
-   /*  border: 2px solid black; */ 
-    
 }
+
 /* recordar borrar border del body
 una vez finalizad el responsive */
 
@@ -27,7 +26,7 @@ una vez finalizad el responsive */
     width: 100%;
     height: 85vh;
     align-items: center;
-    padding: 1.25rem; 
+    padding: 1.25rem;
 }
 
 .about-info {
@@ -36,14 +35,13 @@ una vez finalizad el responsive */
     padding: 1.25rem;
     width: 30%;
     flex-direction: column;
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Montserrat', sans-serif;
     height: 18.75rem;
-    padding: 0.625rem; 
-    
+    padding: 0.625rem;
 }
 
 .about-presentation {
-   display: flex; 
+    display: flex;
 }
 
 .about-hi {
@@ -65,16 +63,16 @@ una vez finalizad el responsive */
     font-size: 1.25rem;
 }
 
-.about-img{
+.about-img {
     display: flex;
     flex-direction: row;
     width: 45%;
-    height: 60vh;      
+    height: 60vh;
 }
 
 .imagen-in {
     display: flex;
-    justify-content:flex-end;
+    justify-content: flex-end;
     width: 100%;
     height: 80vh;
 }
@@ -93,24 +91,24 @@ una vez finalizad el responsive */
     align-content: center;
 }
 
-.about-button:hover{
+.about-button:hover {
     background-color: rgb(147, 202, 175);
 }
 
 /* ### comienza responsive ### */
 
-@media (max-width:900px) and (min-width:320px){
+@media (max-width:700px) and (min-width:320px) {
     .about-container {
         display: flex;
         flex-direction: column;
         height: auto;
         margin-top: 0;
     }
-    
+
     .about-info {
         width: 100%;
         height: auto;
-        flex-direction: column; 
+        flex-direction: column;
     }
 
     .about-img {
@@ -119,18 +117,18 @@ una vez finalizad el responsive */
     }
 }
 
-@media (max-width:1024px) and (min-width:900px){
+@media (max-width:1024px) and (min-width:900px) {
     .about-container {
         display: flex;
         flex-direction: column;
         height: auto;
         margin-top: 0;
     }
-    
+
     .about-info {
         width: 100%;
         height: auto;
-        flex-direction: column; 
+        flex-direction: column;
     }
 
     .about-img {

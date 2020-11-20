@@ -28,8 +28,7 @@
     margin-bottom: 50px;
     border-style: solid;
     border-color: rgb(193, 150, 241);
-    
-    
+      
 }
 
  .contact-info {
@@ -185,18 +184,27 @@ textarea {
 
 /* ### comienzo responsive ### */
 
-@media (max-width:900px) and (min-width:320px){
+@media (max-width:700px) and (min-width:320px){
     .contact-container{
-    display: flex;
-    align-content: center;
-    flex-direction: column;
-    height: auto; 
-    justify-content: center;
-    padding: 0;
-    margin: 0;
-    border: none;
+        display: flex;
+        align-self: flex-start;
+        flex-direction: column;
+        height: auto; 
+        justify-content: flex-start;
+        padding: 6.25rem;
+        padding-top: 9.375rem;
+        margin-top: 9.375rem;
+        margin-left: 0;
+        margin-right: 0;
+        border: none;
+        background-color: rgb(236, 219, 236);
     
 }
+ 
+    .contact-title{
+        align-self: center;
+    }
+
     .contact-info{
         display: flex;
         align-content: center;
@@ -207,7 +215,12 @@ textarea {
     .contact-text {
         display: flex;
         align-self: center;
+        justify-self: left;
         
+    }
+
+    .contact-social-list{
+        align-self: center;
     }
 
     .contact-form{
@@ -238,17 +251,21 @@ textarea {
         width: 100%;
     }
 
+    .input, .contact-texarea {
+        width: 100%;
+    }
+
 } 
 
 
-@media (max-width:1024px) and (min-width:900px){
+@media (max-width:1024px) and (min-width:700px){
     .contact-container{
     display: flex;
     align-content: center;
     flex-direction: column;
     height: auto; 
     justify-content: center;
-    padding: 0;
+    padding-top: 9.375rem;
     margin: 0;
     border: none;
     
@@ -266,7 +283,7 @@ textarea {
         
     }
 
-    .contact-form{
+    .contact-form {
         display: flex;
         align-content: center;
         flex-direction: column;
