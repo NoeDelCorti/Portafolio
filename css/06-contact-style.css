@@ -36,7 +36,8 @@
     flex-direction: column;
     padding-top: 3.125rem;
     padding-left: 1.25rem;
-    width: auto;  
+    width: auto; 
+    flex-wrap: wrap; 
 }
 
 .contact-title {
@@ -120,7 +121,6 @@
 .contact-title-form {
     font-size: 2.8125rem;
     display: flex;
-    align-self: flex-start; 
 }
 
 .contact-formulario-container{
@@ -159,7 +159,7 @@
     padding: 10px;
     border: 1px solid rgb(205, 199, 209);
     outline: none;
-    
+    width: 100%;
 }
 
 
@@ -191,15 +191,17 @@ textarea {
         flex-direction: column;
         height: auto; 
         justify-content: flex-start;
-        padding: 6.25rem;
-        padding-top: 9.375rem;
+        padding: 0;
         margin-top: 9.375rem;
         margin-left: 0;
         margin-right: 0;
-        border: none;
-        background-color: rgb(236, 219, 236);
-    
+        border: none;  
 }
+
+     .contact-title-form{
+        display: flex;
+        justify-content: center;
+    } 
  
     .contact-title{
         align-self: center;
@@ -210,6 +212,7 @@ textarea {
         align-content: center;
         justify-content: center;
         padding: 0.625rem;
+       
     }
 
     .contact-text {
@@ -260,15 +263,15 @@ textarea {
 
 @media (max-width:1024px) and (min-width:700px){
     .contact-container{
-    display: flex;
-    align-content: center;
-    flex-direction: column;
-    height: auto; 
-    justify-content: center;
-    padding-top: 9.375rem;
-    margin: 0;
-    border: none;
-    
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        height: auto; 
+        justify-content: center;
+        padding-top: 9.375rem;
+        margin: 0;
+        border: none;
+        
 }
     .contact-info{
         display: flex;
