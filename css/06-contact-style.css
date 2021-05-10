@@ -136,21 +136,41 @@
 
 .name-box {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%; 
-    padding: 5px;
+    /* padding: 5px; */
     padding-bottom: 5px;
 }
 
+.user-name{
+    width: 50%;
+    margin-right: 5px;
+}
+
+.user-last-name{
+    width: 50%;
+    margin-left: 5px;
+    /* padding: 5px; */
+}
 .user-email {
     display: flex;
     flex-wrap: wrap;
 }
 
-.laberl-text{
-    /* display: flex; */
+.user-message{
+    padding: 5px;
+    width: 100%;
+}
+
+.user-message-text{
+    width: 100%;
+}
+
+.label-text{
     font-weight: bold;
     color: rgb(185, 103, 243);
+    padding: 5px;
+   /*  margin-top: 5px; */
     
 }
 
@@ -160,16 +180,21 @@
     border: 1px solid rgb(205, 199, 209);
     outline: none;
     width: 100%;
+    margin-top: 5px;
+}
+
+.contact-texarea {
+    margin-top: 5px;
 }
 
 
-textarea {
+/* textarea {
     border-radius: 25px;
     border: none;
-    margin: 5px;
+    padding-top: 5px;
     width: 93%;
 }
-
+ */
 .contact-button {
     display: flex;
     width: 30%;
@@ -180,6 +205,7 @@ textarea {
     text-align: center;
     justify-content: center;
 }
+
 
 
 /* ### comienzo responsive ### */
