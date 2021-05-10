@@ -34,10 +34,9 @@
     margin-right: 0.625em;  
 }
 
-nav-header-item {
+.nav-header-item {
     display: flex;
-    align-items: center;
-    
+    align-items: center;    
 }
 
 .nav-header-link {

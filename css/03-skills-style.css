@@ -94,7 +94,7 @@
 
 .skills-icon:hover,
 .skills-icon:hover .skills-name{
-    color: darkorchid;
+    color: rgb(205, 172, 221);
     border-color: darkorchid;     
 } 
 
